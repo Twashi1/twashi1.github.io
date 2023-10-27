@@ -2,17 +2,42 @@
 From:
 https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity
 */
+:root {
+    --leftEyeLeft: 31%;
+    --leftEyeTop: 28%;
+    --rightEyeLeft: 57%;
+    --rightEyeTop: 24%;
+}
+
 .globalBackground {
     position: absolute;
 }
 
-.globalBackgroundImg {
+.globalBackgroundImgOpacity {
     opacity: 0.25;
+}
+
+.globalBackgroundImg {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
+}
+
+.globalBackgroundImgEye {
+    width: 6%;
+    height: 6%;
+}
+
+.globalBackgroundImgEyeLeft {
+    left: var(--leftEyeLeft);
+    top: var(--leftEyeTop);
+}
+
+.globalBackgroundImgEyeRight {
+    left: var(--rightEyeLeft);
+    top: var(--rightEyeTop);
 }
 
 .globalBackgroundContent {
