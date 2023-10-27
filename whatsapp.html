@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Styling lists</title>
+    <style>
+        /* General styles */
+        html {
+            font-size: 12px;
+        }
+
+        img{
+            max-width: 110%;
+            max-height: 110%;
+        }
+
+        h2 {
+            font-size: 2rem;
+            background-color: green;
+        }
+
+        ul, dl, p {
+            font-size: 1.5rem;
+        }
+        ol {
+            font-size: 13px;
+        }
+
+        li, p {
+            line-height: 1.5;
+        }
+
+        /* Unordered list styles */
+
+        ul {
+            padding-left: 2rem;
+            list-style-type: none;
+        }
+
+            ul li {
+                padding-left: 2rem;
+                background-image: url(star.svg);
+                background-position: 0 0;
+                background-size: 1.6rem 1.6rem;
+                background-repeat: no-repeat;
+            }
+
+        /* Ordered list styles */
+
+        ol {
+            list-style-type: upper-roman;
+        }
+
+        /* Description list styles */
+
+        dd, dt {
+            line-height: 1.5;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+
+        h3 {
+            font-size: x-large;
+        }
+
+        .grid {
+            display: grid;
+            align-items: center; 
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 50px;
+
+            
+            font-size: 12px;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    -->
+    <h2 class="colorblock">WhatsApp</h2>
+    <p>
+        WhatsApp is a free messaging service that started in 2009 
+        as an alternative to SMS.
+        <br>
+        <h3>Main Features</h3>
+        <ol>
+            <li>Text Messaging: Send and receive text messages in real-time.</li>
+            <li>Voice Calls: Make voice calls to other WhatsApp users over an internet connection.</li>
+            <li>Video Calls: Conduct video calls for face-to-face communication.</li>
+            <li>Group Chats: Create and participate in group chats with multiple contacts.</li>
+            <li>End-to-End Encryption: WhatsApp provides end-to-end encryption for messages, ensuring privacy and security.</li>
+            <li>Media Sharing: Share photos, videos, documents, and audio files with contacts.</li>
+            <li>Status Updates: Post short-lived status updates that disappear after 24 hours.</li>
+            <li>WhatsApp Web: Use WhatsApp on a web browser to chat from a computer.</li>
+        </ol>
+        <h3>Life Before WhatsApp</h3>
+        <div class="grid">
+            <div class="image">
+                <img src="MarathonRunner.jpg" alt="Athenian Courier Pheidippides">
+            </div>
+            <div class="text">
+                <p>
+                    Pheidippides was a Greek runner who, according to legend, ran from the Battle of 
+                    Marathon to Athens to announce victory, inspiring the modern marathon race.
+                </p>
+            </div>
+        </div>
+        
+    </p>
+    <a href="https://www.sciencedirect.com/topics/computer-science/computer-science-applications">Applications of Computer Science Article</a>
+    <!--
+        <p>Paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference.</p>
+
+        <ul>
+          <li>Humous</li>
+          <li>Pitta</li>
+          <li>Green salad</li>
+          <li>Halloumi</li>
+        </ul>
+
+        <h2>Recipe (ordered) list</h2>
+
+        <p>Paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference.</p>
+
+        <ol start="4">
+          <li>Toast pitta, leave to cool, then slice down the edge.</li>
+          <li>Fry the halloumi in a shallow, non-stick pan, until browned on both sides.</li>
+          <li>Wash and chop the salad.</li>
+          <li>Fill pitta with salad, humous, and fried halloumi.</li>
+        </ol>
+
+        <h2>Ingredient description list</h2>
+
+        <p>Paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference.</p>
+
+        <dl>
+          <dt>Humous</dt>
+          <dd>A thick dip/sauce generally made from chick peas blended with tahini, lemon juice, salt, garlic, and other ingredients.</dd>
+          <dt>Pitta</dt>
+          <dd>A soft, slightly leavened flatbread.</dd>
+          <dt>Halloumi</dt>
+          <dd>A semi-hard, unripened, brined cheese with a higher-than-usual melting point, usually made from goat/sheep milk.</dd>
+          <dt>Green salad</dt>
+          <dd>That green healthy stuff that many of us just use to garnish kebabs.</dd>
+        </dl>
+
+    -->
+</body>
+</html>
