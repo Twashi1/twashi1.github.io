@@ -24,3 +24,45 @@ li {
     border-color: #666666;
     position: relative;
 }
+
+/* From https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
+/* Style the navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color: #333333;
+    position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.navbar #navbarLinksDiv {
+    display: none;
+}
+
+/* Style navigation menu links */
+.navbar a {
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.navbar a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+  
+  /* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
+    color: white;
+ }
