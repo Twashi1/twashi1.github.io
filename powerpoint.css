@@ -3,7 +3,7 @@ From:
 https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity
 */
 .globalBackground {
-    position: relative;
+    position: absolute;
 }
 
 .globalBackgroundImg {
