@@ -3,3 +3,7 @@ html {
     font-family: 'Courier New', Courier, monospace;
     background-color: lightgray;
 }
+
+.github-logo {
+    max-height: 1rem;
+}
