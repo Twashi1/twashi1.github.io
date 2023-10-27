@@ -7,3 +7,7 @@ html {
 .github-logo {
     max-height: 1rem;
 }
+
+p {
+    font-size: 1rem;
+}
