@@ -18,3 +18,7 @@ https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-
 .globalBackgroundContent {
     position: initial;
 }
+
+h1 {
+    background-color: #cccccc;
+}
