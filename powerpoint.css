@@ -48,6 +48,11 @@ https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-
     position: relative;
 }
 
+/* Good God I'm a programming genius */
+.makeLinkWorkClass {
+    position: relative;
+}
+
 h1 {
     background-color: #cccccc;
 }
