@@ -1,5 +1,8 @@
 .github-logo {
     max-height: 1rem;
+    max-width: 1rem;
+    min-width: 1rem;
+    min-height: 1rem;
 }
 
 .footerClass {
