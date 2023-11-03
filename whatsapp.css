@@ -1,0 +1,77 @@
+html {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    background-color: green;
+    
+}
+
+ul, dl, p {
+    font-size: 1.5rem;
+}
+ol {
+    font-size: 14px;
+}
+
+li, p {
+    line-height: 1.5;
+}
+
+/* Unordered list styles */
+
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+    ul li {
+        padding-left: 2rem;
+        background-image: url(star.svg);
+        background-position: 0 0;
+        background-size: 1.6rem 1.6rem;
+        background-repeat: no-repeat;
+    }
+
+/* Ordered list styles */
+
+ol {
+    list-style-type:circle;
+}
+
+/* Description list styles */
+
+dd, dt {
+    line-height: 1.5;
+}
+
+dt {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.grid {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+
+    
+    font-size: 12px;
+    
+}
