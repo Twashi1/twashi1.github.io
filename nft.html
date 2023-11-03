@@ -1,38 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="nft.css">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="nft.css">
+
+	<link rel="icon" type="image/x-icon" href="res/nft/favicon.ico">
 	<title>NFTs</title>
 </head>
 <body>
-	<h1>NFTs</h1>
-	<a href="index.html">Index</a>
-	<hr>
-	
-	<h3>What are NFTs?</h3>
-	<p>NFT stands for "non-fungible token", and is an <i>identifier</i> of sorts which is recorded on a blockchain. NFTs can be transferred, meaning they can be sold. Due to NFTs being inherently non-fungible (and therefore one of a kind), they can theoretically be worth a lot of money. NFTs are often bought and sold via marketplaces such as Opensea, as seen below.</p>
-	<img src="res/nft/opensea.png" alt="Screenshot of the main page of Opensea.io" id="opensea-image">
-	
-	<h3>How do NFTs make a positive contribution to society?</h3>
-	<ul>
-		<li>NFTs allow artists to monetise their work in the digital space</li>
-		<li>NFTs help keep energy companies in business, due to the energy requirements associated with the blockchain</li>
+	<!-- Navbar from https://getbootstrap.com/docs/4.0/components/navbar/#how-it-works -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand ms-2" href="#">TLRM</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link" href="index.html">Home</a>
+				<a class="nav-item nav-link" href="powerpoint.html">PowerPoint</a>
+				<a class="nav-item nav-link active" href="nft.html">NFTs</a>
+				<a class="nav-item nav-link" href="crypto.html">Crypto</a>
+				<a class="nav-item nav-link" href="whatsapp.html">WhatsApp</a>
+			</div>
+		</div>
+	</nav>
+	<div class="ms-4 me-4 mt-4 mb-4">
+		<h1>NFTs</h1>
+		<hr>
+		
+		<h3>What are NFTs?</h3>
+		<p>NFT stands for "non-fungible token", and is an <i>identifier</i> of sorts which is recorded on a blockchain. NFTs can be transferred, meaning they can be sold. Due to NFTs being inherently non-fungible (and therefore one of a kind), they can theoretically be worth a lot of money. NFTs are often bought and sold via marketplaces such as <a href="https://opensea.io/" target="_blank">Opensea</a>, as seen below.</p>
+		<img src="res/nft/opensea.png" alt="Screenshot of the main page of Opensea.io" id="opensea-image">
+		
+		<h3>How do NFTs make a positive contribution to society?</h3>
 		<ul>
-			<li>This keeps the mines open</li>
+			<li>NFTs allow artists to monetise their work in the digital space</li>
+			<li>NFTs help keep energy companies in business, due to the energy requirements associated with the blockchain</li>
+			<ul>
+				<li>This keeps the mines open</li>
+			</ul>
+			<li>NFTs provide a great source of discussion and debate</li>
+			<li>NFTs can be a great inspiration and motivator to people wanting to become blockchain developers</li>
 		</ul>
-		<li>NFTs provide a great source of discussion and debate</li>
-		<li>NFTs can be a great inspiration and motivator to people wanting to become blockchain developers</li>
-	</ul>
 
-	<h3>Notorious NFT Projects</h3>
-	<p>Many NFT projects became very well-known, below are a few examples:</p>
-	<ul>
-		<li>Cryptopunks</li>
-		<li>Bored Ape Yacht Club</li>
-		<li>Cryptozoo</li>
-	</ul>
+		<h3>Notorious NFT Projects</h3>
+		<p>Many NFT projects became very well-known, below are a few examples:</p>
+		<ul>
+			<li><a href="https://en.wikipedia.org/wiki/CryptoPunks" target="_blank">Cryptopunks</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Bored_Ape" target="_blank">Bored Ape Yacht Club</a></li>
+			<li><a href="https://cryptozooworld.com/" target="_blank">Cryptozoo</a></li>
+		</ul>
+
+		<div id="footerDiv" class="footerClass">
+			<p>
+				<a href="https://github.com/lucfis"><img src="res/github-mark.svg" class="github-logo"/></a>
+				Written by Lucas
+			</p>
+			<a href="index.html">Back to main page</a>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

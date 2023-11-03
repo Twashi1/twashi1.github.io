@@ -1,5 +1,10 @@
-html {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: lightgray;
+.github-logo {
+    max-height: 1rem;
+}
+
+.footerClass {
+    border-top: 0.1rem solid;
+    padding-top: 1rem;
+    border-color: #666666;
+    position: relative;
 }
